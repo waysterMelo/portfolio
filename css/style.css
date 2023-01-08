@@ -833,15 +833,14 @@ a:active {
     width: 100%
 }
 
-.ghost {
-    align-self: flex-end;
-    background: url(/assets/images/polygon.svg);
-    background-size: cover;
-    display: flex;
-    height: 3.6666666667rem;
-    justify-content: center;
-    margin-left: auto;
-    width: 3.6666666667rem
+#ghost{
+    background: url(polygon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ghost img{
+    width:auto;
 }
 
 .ghost__jacques {
@@ -1061,12 +1060,12 @@ a:active {
 }
 
 .mask__upper:before {
-    background-image: url(/assets/images/mask-tl.svg);
+    background-image: url(mask-tl.svg);
     left: -0.8333333333rem
 }
 
 .mask__upper:after {
-    background-image: url(/assets/images/mask-tr.svg);
+    background-image: url(mask-tr.svg);
     right: -0.8333333333rem
 }
 
@@ -1077,14 +1076,14 @@ a:active {
 }
 
 .mask__lower:before {
-    background-image: url(/assets/images/mask-bl.svg);
+    background-image: url(mask-bl.svg);
     bottom: 0;
     left: -0.8333333333rem;
     top: auto
 }
 
 .mask__lower:after {
-    background-image: url(/assets/images/mask-br.svg);
+    background-image: url(mask-br.svg);
     bottom: 0;
     right: -0.8333333333rem;
     top: auto
